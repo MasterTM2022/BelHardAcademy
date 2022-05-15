@@ -8,6 +8,7 @@ public class Summ1N {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         System.out.println("Результат:" + summ(n));
+        in.close();
     }
         private static int summ(int x){
             if (x == 0) {
