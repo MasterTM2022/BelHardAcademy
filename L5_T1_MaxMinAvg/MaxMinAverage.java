@@ -1,5 +1,4 @@
 package L5_T1_MaxMinAvg;
-
 public class MaxMinAverage {
     public static void main(String[] args) {
             int[] array = {
