@@ -27,7 +27,6 @@ public class Group {
     }
 
     public void delStudent(String surname, String name) {
-        boolean flag = false;
         int i = 0;
         int step = 0;
         Student[] newStudentArray = new Student[studentArray.length - 1];
