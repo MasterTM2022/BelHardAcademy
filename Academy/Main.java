@@ -7,6 +7,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
+
         Address address1 = new Address("Минск", "Ленина", 45, 21);
         Address address2 = new Address("Могилев", "Независимости", 19, 17);
         Address address3 = new Address("Бобруйск", "Ленина", 8, 2);
