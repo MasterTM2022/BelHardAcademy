@@ -1,4 +1,4 @@
-package L5_T3_Sostavnie;
+package main.HomeWork.L5.L5_T3_Sostavnie;
 
 public class Sostavnie {
     public static void main(String[] args) {

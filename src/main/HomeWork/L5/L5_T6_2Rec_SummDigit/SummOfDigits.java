@@ -1,4 +1,4 @@
-package L5_T6_2Rec_SummDigit;
+package main.HomeWork.L5.L5_T6_2Rec_SummDigit;
 
 import java.util.Scanner;
 

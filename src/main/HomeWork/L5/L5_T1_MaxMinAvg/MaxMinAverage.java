@@ -1,4 +1,4 @@
-package L5_T1_MaxMinAvg;
+package main.HomeWork.L5.L5_T1_MaxMinAvg;
 public class MaxMinAverage {
     public static void main(String[] args) {
             int[] array = {

@@ -2,7 +2,7 @@
 // можно было рекурсивно сортировать и подмассивы (и их под-под-массивы), но хотелось
 // в одной задачке убить трех зайцев...
 
-package L5_T6_2Rec_SummDigit.L5_T2_SortMassive;
+package main.HomeWork.L5.L5_T2_SortMassive;
 
 public class Merge_Insertion_Choice {
 

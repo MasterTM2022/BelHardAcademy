@@ -1,4 +1,4 @@
-package Academy;
+package main.HomeWork.Academy;
 
 import java.util.Scanner;
 
@@ -15,24 +15,53 @@ public class Address {
         this.flat = flat;
     }
 
-    public Address ChangeAddress() {
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public int getHouse() {
+        return house;
+    }
+
+    public void setHouse(int house) {
+        this.house = house;
+    }
+
+    public int getFlat() {
+        return flat;
+    }
+
+    public void setFlat(int flat) {
+        this.flat = flat;
+    }
+
+    public void ChangeAddress() {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите новый адрес\n");
         System.out.println("Город?");
-        city = in.next();
+        setCity(in.next());
         System.out.println("Улица?");
-        street = in.next();
+        setStreet(in.next());
         System.out.println("Дом?");
-        house = in.nextInt();
+        setHouse(in.nextInt());
         System.out.println("Квартира?");
-        flat = in.nextInt();
-        Address newAddress = new Address (city, street, house, flat);
-        return newAddress;
+        setFlat(in.nextInt());
     }
 
     @Override
     public String toString() {
         return "г." + this.city + ", ул." + this.street + ", д." + this.house + ", кв." + this.flat;
-//		return this.street + " " + this.house;
     }
 }

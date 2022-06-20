@@ -1,4 +1,4 @@
-package L5_T4_MassMinusMass;
+package main.HomeWork.L5.L5_T4_MassMinusMass;
 
 import java.util.Arrays;
 

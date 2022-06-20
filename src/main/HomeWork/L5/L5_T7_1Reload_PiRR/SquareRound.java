@@ -1,4 +1,4 @@
-package L5_T7_1Reload_PiRR;
+package main.HomeWork.L5.L5_T7_1Reload_PiRR;
 
 import java.util.Scanner;
 
@@ -41,7 +41,7 @@ public class SquareRound {
 
     static double func(double r) {
         double result = Math.PI * r * r;
-        return (double) result;
+        return result;
     }
 
     static double func(double d, boolean what) {

@@ -1,4 +1,4 @@
-package L5_T5_1Rec_Summ1N;
+package main.HomeWork.L5.L5_T5_1Rec_Summ1N;
 
 import java.util.Scanner;
 
